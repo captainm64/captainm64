@@ -1,0 +1,28 @@
+img{
+
+   height: 55%;
+   width: 40%;
+}
+
+.projtxt{
+
+   display: flex;
+   
+   flex-direction: row;
+ 
+}
+
+.projtxt img {
+
+   height: 100%
+ 
+}
+
+#Main{
+
+font-size: 30px;
+font-family: "timesnewromanbold";
+color: rgb(0, 0, 0);
+
+
+}

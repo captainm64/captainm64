@@ -1,0 +1,12 @@
+img{
+
+   height: 55%;
+   width: 40%;
+}
+
+.projtxt{
+
+   display: flex;
+   flex-direction: row;
+ 
+}
