@@ -1,14 +1,14 @@
 img{
 
    height: 55%;
-   width: 45%;
+   width: 40%;
 }
 
 .projtxt{
 
    display: flex;
    
-   flex-direction: column;
+   flex-direction: row;
  
 }
 
@@ -21,7 +21,7 @@ img{
 
 #Main{
 
-font-size: 30rem;
+font-size: 30px;
 font-family: "timesnewromanbold";
 color: rgb(0, 0, 0);
 
@@ -29,22 +29,13 @@ color: rgb(0, 0, 0);
 }
 
 
-/*Tablet*/
+/*phone*/
 @media (min-width: 768px) {
 
     img{
 
    height: 55%;
-   width: 40%;
-   }
-
-
-.projtxt{
-
-      display: flex;
-      flex-direction: row;
-      font-size: 40%
-     
+   width: 20%;
    }
 
    .projtxt img {
@@ -55,7 +46,7 @@ color: rgb(0, 0, 0);
 
 }
 
-/* laptop */
+/* IPad */
 @media(min-width: 1025px) 
 {
      img{
@@ -64,20 +55,9 @@ color: rgb(0, 0, 0);
    width: 30%;
    }
 
-
-   .projtxt{
-
-          display: flex;
-   
-      flex-direction: row;
-
-      font-size: 40%
-   }
-
-
    .projtxt img {
 
-   height: 80%
+   height: 90%
  
   }
   
