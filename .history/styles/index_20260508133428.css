@@ -1,9 +1,3 @@
-main{
-
-   background-color: purple;
-}
-
-
 img{
 
    height: 55%;
@@ -38,7 +32,7 @@ img{
 
    justify-content: space-evenly;
    
-   flex-direction: column;
+   flex-direction: row;
 }
 
 .demos{
@@ -87,16 +81,6 @@ color: rgb(0, 0, 0);
  
   }
 
-  .demos{
-
-   height: 70%;
-   width: 150%;
-
-
-   display: flex;
-   flex-direction: row
-}
-
 }
 
 /* laptop */
@@ -132,13 +116,6 @@ color: rgb(0, 0, 0);
  
   }
   
-  .demos{
 
-   height: 70%;
-   width: 150%;
-    display: flex;
-    justify-content: left;
-   flex-direction: row
-}
 
 }

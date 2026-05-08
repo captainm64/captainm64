@@ -1,9 +1,3 @@
-main{
-
-   background-color: purple;
-}
-
-
 img{
 
    height: 55%;
@@ -35,10 +29,8 @@ img{
 .demos{
 
    display: flex;
-
-   justify-content: space-evenly;
    
-   flex-direction: column;
+   flex-direction: row;
 }
 
 .demos{
@@ -62,16 +54,10 @@ color: rgb(0, 0, 0);
 
     img{
 
-   height: 95%;
-   width: 50%;
+   height: 55%;
+   width: 40%;
    }
 
-   .Me{
-
-   display: flex;
-
-   flex-direction: row;
-   }
 
 .projtxt{
 
@@ -87,16 +73,6 @@ color: rgb(0, 0, 0);
  
   }
 
-  .demos{
-
-   height: 70%;
-   width: 150%;
-
-
-   display: flex;
-   flex-direction: row
-}
-
 }
 
 /* laptop */
@@ -104,17 +80,10 @@ color: rgb(0, 0, 0);
 {
      img{
 
-   height: 95%;
+   height: 55%;
    width: 30%;
    }
 
-
-  .Me{
-
-   display: flex;
-
-   flex-direction: row;
-   }
 
    .projtxt{
 
@@ -132,13 +101,6 @@ color: rgb(0, 0, 0);
  
   }
   
-  .demos{
 
-   height: 70%;
-   width: 150%;
-    display: flex;
-    justify-content: left;
-   flex-direction: row
-}
 
 }
