@@ -2,6 +2,7 @@ html{
    background-color: rgb(126, 210, 227);
 }
 
+
 img{
 
    height: 55%;
@@ -44,12 +45,6 @@ img{
 
    height: 50rem;
    width: 80rem
-}
-
-.img2{
-
-      height: 30%;
-      width: 100%
 }
 
 #Main{

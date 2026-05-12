@@ -2,6 +2,7 @@ html{
    background-color: rgb(126, 210, 227);
 }
 
+
 img{
 
    height: 55%;
@@ -37,19 +38,12 @@ img{
    justify-content: space-evenly;
    
    flex-direction: column;
-
 }
 
 .demos{
 
    height: 50rem;
    width: 80rem
-}
-
-.img2{
-
-      height: 30%;
-      width: 100%
 }
 
 #Main{
