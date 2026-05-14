@@ -1,0 +1,151 @@
+html{
+   background-color: rgb(126, 210, 227);
+}
+
+
+img{
+
+   height: 55%;
+   width: 45%;
+}
+
+.Me{
+
+   display: flex;
+
+   flex-direction: column;
+}
+
+.projtxt{
+
+   display: flex;
+   
+   flex-direction: column;
+ 
+}
+
+.projtxt img {
+
+   height: 100%;
+   width: 100%
+ 
+}
+
+.demos{
+
+   display: flex;
+
+   justify-content: space-evenly;
+   
+   flex-direction: column;
+
+}
+
+.demos{
+
+   height: 50rem;
+   width: 80rem
+}
+
+.img2{
+
+      height: 30%;
+      width: 100%
+}
+
+#Main{
+
+font-size: 30rem;
+font-family: "timesnewromanbold";
+color: rgb(0, 0, 0);
+
+
+}
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+    img{
+
+   height: 95%;
+   width: 50%;
+   }
+
+   .Me{
+
+   display: flex;
+
+   flex-direction: row;
+   }
+
+.projtxt{
+
+      display: flex;
+      flex-direction: row;
+      font-size: 80%
+     
+   }
+
+   .projtxt img {
+
+   width: 50%
+ 
+  }
+
+  .demos{
+
+   height: 70%;
+   width: 150%;
+
+
+   display: flex;
+   flex-direction: row
+   }
+
+
+}
+
+/* laptop */
+@media(min-width: 1025px) 
+{
+     img{
+
+   height: 95%;
+   width: 30%;
+   }
+
+
+  .Me{
+
+   display: flex;
+
+   flex-direction: row;
+   }
+
+   .projtxt{
+
+          display: flex;
+   
+      flex-direction: row;
+
+      font-size: 60%
+   }
+
+
+   .projtxt img {
+
+   height: 80%
+ 
+  }
+  
+  .demos{
+
+   height: 70%;
+   width: 150%;
+    display: flex;
+    justify-content: left;
+   flex-direction: row
+}
+
+}
